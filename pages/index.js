@@ -1,65 +1,71 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import Layout from '../components/Layout'
+import Banner from '../components/Banner'
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+export default () => (
+    <Layout>
+        <div>
+            <Banner />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+            <div id="main">
+                <section id="one" className="tiles">
+                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                        <header className="major">
+                            <h3>About</h3>
+                            <p>Ipsum dolor sit amet</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                        <header className="major">
+                            <h3>Projects</h3>
+                            <p>feugiat amet tempus</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                        <header className="major">
+                            <h3>Skills</h3>
+                            <p>Lorem etiam nullam</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                        <header className="major">
+                            <h3>Interests</h3>
+                            <p>Nisl sed aliquam</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                        <header className="major">
+                            <h3>Publications</h3>
+                            <p>Ipsum dolor sit amet</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                        <header className="major">
+                            <h3>Blog</h3>
+                            <p>Feugiat amet tempus</p>
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                </section>
+                <section id="two">
+                    <div className="inner">
+                        <header className="major">
+                            <h2>Massa libero</h2>
+                        </header>
+                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                        <ul className="actions">
+                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
-}
+    </Layout>
+)
