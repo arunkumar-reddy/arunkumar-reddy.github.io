@@ -13,47 +13,47 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
                         <header className="major">
                             <h3>About</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <p>Read more about me</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/about"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
                             <h3>Projects</h3>
-                            <p>feugiat amet tempus</p>
+                            <p>Check out my projects </p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/projects"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
                         <header className="major">
-                            <h3>Skills</h3>
-                            <p>Lorem etiam nullam</p>
+                            <h3>Interests</h3>
+                            <p>Read up about my interests</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/interests"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
                         <header className="major">
-                            <h3>Interests</h3>
-                            <p>Nisl sed aliquam</p>
+                            <h3>Skills</h3>
+                            <p>Take a Peek at my skillset</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/skills"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
                         <header className="major">
                             <h3>Publications</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <p>Find my publications</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/publications"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
                             <h3>Blog</h3>
-                            <p>Feugiat amet tempus</p>
+                            <p>Read my Blog Posts</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/blog"><a className="link primary"></a></Link>
                     </article>
                 </section>
-                <section id="two">
+                {/*<section id="two">
                     <div className="inner">
                         <header className="major">
                             <h2>Massa libero</h2>
@@ -63,7 +63,7 @@ export default () => (
                             <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
                         </ul>
                     </div>
-                </section>
+                </section>*/}
             </div>
 
         </div>
