@@ -35,7 +35,7 @@ export default () => (
                         <li>Retrofit, OkHttp - For Networking</li>
                         <li>SQLDelight, SQLite - For Persistence</li>
                         <li>Work Manager - For Background Tasks</li>
-                        <li>Power Mockito - For Unit Testing and Mocking</li>
+                        <li>Junit and Mockito - For Unit Testing and Mocking</li>
                     </ul>
 
                     <h4>React Native and Web</h4>
@@ -44,7 +44,7 @@ export default () => (
                         <li>Next.js - A framework on top of React with SSR and Static Site generation out of the box</li>
                         <li>Redux - State Management</li>
                         <li>React Router - For Navigation</li>
-                        <li>Node.js - Server Side Javascript Runtime</li>
+                        <li>Express and Node.js - Server Side Javascript Runtime</li>
                         <li>Jest and Enzyme - Mocking and Unit testing</li>
                     </ul>
 

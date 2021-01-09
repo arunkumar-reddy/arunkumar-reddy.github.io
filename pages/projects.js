@@ -43,7 +43,7 @@ export default () => (
                     </section>
                     <section>
                         <Link href="https://github.com/Flipkart/recyclerlistview">
-                            <a className="image"><img src="/static/images/rlv.jpg" alt="" /></a>
+                            <a className="image"><img src="/static/images/recycler.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -94,8 +94,8 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/android.png" alt="" /></a>
+                        <Link href="https://developer.android.com/topic/performance/vitals">
+                            <a className="image"><img src="/static/images/android.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -106,14 +106,14 @@ export default () => (
                                     As part of performance improvements, Worked on improving the cold start times of the Flipkart Retail 
                                     Android App. Profiled and Identified items to offload work off the main thread to background worker 
                                     threads. Employed lazy initialisation and Eager initialisation in background threads for some of the
-                                    app dependencies to improve the cold start by 200ms. Integrated Work Manager API into the app for handling
+                                    app dependencies to improve the cold start by around 15%. Integrated Work Manager API into the app for handling
                                     background tasks.
                                 </p>
                                 <p>
                                     Kotlin | Java | Android
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://developer.android.com/topic/performance/vitals"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -145,8 +145,8 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
+                        <Link href="https://www.flipkart.com">
+                            <a className="image"><img src="/static/images/apex.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -164,13 +164,13 @@ export default () => (
                                     Typescript | React Native | React Native Web
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://www.flipkart.com"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
+                        <Link href="https://www.youtube.com/watch?v=_QndP_PCRSw">
                             <a className="image"><img src="/static/images/sortingrobot.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
@@ -190,14 +190,14 @@ export default () => (
                                     Python | ROS | Matplotlib
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://www.youtube.com/watch?v=_QndP_PCRSw"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
+                        <Link href="https://github.com/arunkumar-reddy/Face-Generation-DCGAN">
+                            <a className="image"><img src="/static/images/celebrities.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -216,14 +216,14 @@ export default () => (
                                     Python | Tensorflow | LFW Dataset
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://github.com/arunkumar-reddy/Face-Generation-DCGAN"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
+                        <Link href="https://github.com/arunkumar-reddy/Rust-Multithreaded-Server">
+                            <a className="image"><img src="/static/images/rust.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -241,14 +241,14 @@ export default () => (
                                     Rust
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://github.com/arunkumar-reddy/Rust-Multithreaded-Server"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
+                        <Link href="https://firebase.google.com/docs/perf-mon/get-started-web">
+                            <a className="image"><img src="/static/images/firebase.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -265,7 +265,7 @@ export default () => (
                                     Javascript | Typescript | Web | Firebase
                                 </p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><Link href="https://firebase.google.com/docs/perf-mon/get-started-web"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
